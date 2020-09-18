@@ -5,6 +5,8 @@ import TextBox1 from './Component/TextBox1';
 import TextBox2 from './Component/TextBox2';
 import Image from './Component/Image';
 
+//Got an array from website and took a url
+//Set up variables for the source, two text boxes and the value
 export default function App() {
   const [imageSrc, setImageSrc] = useState(
     'https://api.memegen.link/images/noidea.jpg',
@@ -13,6 +15,7 @@ export default function App() {
   const [bottomText, setBottomText] = useState('');
   const [value, setValue] = useState('');
 
+  //Need to return the image, image selector, input boxes and a download button
   return (
     <div className="App">
       <h1>Meme Generator</h1>

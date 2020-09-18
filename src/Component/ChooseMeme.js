@@ -1,5 +1,5 @@
 import React from 'react';
-
+//created a dropdown menu
 export default function ChooseMeme({ onChange, change }) {
   return (
     <select className="ChooseMeme" onChange={onChange}>
